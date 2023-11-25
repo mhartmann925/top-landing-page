@@ -82,3 +82,45 @@ a {
     color: #f9faf8;
     font-weight: bold;
 }
+
+.body-image {
+    height: 100px;
+    width: 100px;
+    background-color: #1f2937;
+    border-width: 5px;
+    border: #3882f6;
+    border-radius: 25%;
+}
+
+.body-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.body-content {
+    display: flex;
+    padding: 18px 15%;  
+    justify-content: space-between;
+}
+
+.content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.quote-block {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 18px 15%;
+}
+
+.quote-author {
+    text-align: right;
+}
