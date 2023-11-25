@@ -124,3 +124,27 @@ a {
 .quote-author {
     text-align: right;
 }
+
+.cta-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+
+.cta-module {
+    background-color: #3882f6;
+    padding: 16px 32px;
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta {
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: white;
+    padding: 6px 18px;
+}
